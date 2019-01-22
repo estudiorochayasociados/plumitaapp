@@ -1,0 +1,16 @@
+<ion-content>
+  <ion-list margin-vertical>  
+    <ion-item padding>
+      <ion-label floating>Correo Electrónico</ion-label>
+      <ion-input type="text" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item padding>
+      <ion-label floating>Contraseña</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    <div padding>
+      <button ion-button block (click)="iniciar_sesion()">Iniciar sesión</button>
+      <p>¿No estás registrado? <a (click)="ir()">hacé click acá</a></p>
+    </div>
+  </ion-list>
+</ion-content>

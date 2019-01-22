@@ -1,0 +1,7 @@
+{
+  "name": "plumita",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
